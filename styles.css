@@ -1,0 +1,69 @@
+body {
+    background-image: linear-gradient(to right, #a9e0eb, #c7ebf2, #4ce0b2, #11cf37);
+}
+
+.container {
+    width: 300px;
+    padding-top: 10%;
+    margin: 0 auto;
+}
+
+table {
+    width: inherit;
+}
+
+th {
+    background-color: #18b3ed;
+    color: white;
+    font-size: 1.3rem;
+    padding: 5px;
+}
+
+.fa-plus {
+    padding-left: 140px;
+}
+
+tr {
+    border: 1px solid black;
+    height: 37px;
+}
+
+.whiteBg {
+    background-color: #f2faf7;
+}
+
+.greyBg {
+    background-color: #dfe6e3;
+}
+
+td {
+    margin: 20px;
+}
+
+input {
+    padding-left: 10px;
+    height: 30px;
+    border: none;
+    width: -webkit-fill-available;
+}
+
+.fa-trash-alt {
+    background-color: #f5574c;
+    color: white;
+    padding: 10px 7px;
+    height: 35px;
+    display: none;
+}
+
+span {
+    margin-left: 10px;
+    width: 250px;
+}
+
+.addToDo {
+    display: none;
+}
+
+.doneTask {
+    text-decoration: line-through;
+}
